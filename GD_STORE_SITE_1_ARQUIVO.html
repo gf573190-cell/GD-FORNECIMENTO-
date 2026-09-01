@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GD STORE FORNECIMENTO</title>
+  <meta name="description" content="GD STORE FORNECIMENTO — produtos digitais e serviços.">
+  <style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#050505;color:#f5f5f5;font-family:Arial,Helvetica,sans-serif}body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 75% 18%,rgba(255,0,0,.12),transparent 30%),radial-gradient(circle at 10% 60%,rgba(255,0,0,.06),transparent 28%);z-index:-1}.header{height:76px;padding:0 5%;display:flex;align-items:center;gap:28px;border-bottom:1px solid #222;background:rgba(5,5,5,.9);position:sticky;top:0;z-index:20;backdrop-filter:blur(12px)}.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;margin-right:auto}.brand-mark{font-size:26px;font-weight:900;letter-spacing:-3px;color:#fff;text-shadow:3px 0 #e50914}.brand strong{display:block;font-size:18px}.brand small{display:block;color:#e50914;font-weight:800;font-size:10px;letter-spacing:1px}.header nav{display:flex;gap:25px}.header nav a{color:#ddd;text-decoration:none;font-size:14px}.header nav a:hover{color:#f00}.ticket-btn,.primary,.secondary{border:0;border-radius:9px;padding:13px 20px;font-weight:800;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px}.ticket-btn,.primary{background:#e50914;color:#fff}.secondary{background:#111;color:#fff;border:1px solid #444}.ticket-btn:hover,.primary:hover{background:#ff1a24}.menu-btn{display:none;background:none;color:#fff;border:0;font-size:24px}.hero{min-height:590px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:40px;padding:75px 6%;max-width:1400px;margin:auto}.eyebrow{color:#e50914;font-weight:900;font-size:13px}.hero h1{font-size:clamp(44px,6vw,76px);line-height:.98;margin:18px 0}.hero h1 span,h2 b{color:#e50914}.hero p{color:#bbb;font-size:17px;line-height:1.6;max-width:580px}.badges{display:flex;gap:22px;margin:30px 0;flex-wrap:wrap}.badges div{border-left:2px solid #e50914;padding-left:10px}.badges b{display:block;font-size:11px;color:#fff}.badges small{color:#888}.hero-actions{display:flex;gap:12px}.hero-logo{height:360px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(circle,rgba(255,0,0,.22),transparent 62%);border:1px solid #3a1111;box-shadow:0 0 80px rgba(255,0,0,.1)}.crown{color:#f22;font-size:70px}.gd{font-size:125px;font-weight:1000;letter-spacing:-15px;color:#e50914;text-shadow:0 0 30px rgba(255,0,0,.5)}.store{font-size:38px;font-weight:900;letter-spacing:8px}.fornecimento{font-size:20px;color:#e50914;font-weight:900;letter-spacing:4px}.stats{max-width:1200px;margin:0 auto 55px;border:1px solid #292929;border-radius:14px;display:grid;grid-template-columns:repeat(4,1fr);background:#080808}.stats div{text-align:center;padding:25px;border-right:1px solid #252525}.stats div:last-child{border:0}.stats b{font-size:27px;display:block}.stats span{color:#888;font-size:13px}.notice{max-width:1200px;margin:0 auto 60px;padding:20px 25px;border:1px solid #8d1616;border-radius:12px;background:linear-gradient(90deg,rgba(100,0,0,.3),rgba(20,0,0,.15))}.notice strong{color:#ff3434}.notice p{margin:7px 0 0;color:#bbb}.section{max-width:1200px;margin:0 auto;padding:55px 0}.section-title{text-align:center;margin-bottom:35px}.section-title span{font-size:12px;color:#e50914;font-weight:900;letter-spacing:2px}.section-title h2{font-size:36px;margin:8px 0}.products{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.product{background:#0b0b0b;border:1px solid #292929;border-radius:14px;padding:20px;text-align:center;transition:.2s}.product:hover{transform:translateY(-5px);border-color:#e50914}.product-icon{height:100px;display:grid;place-items:center;font-size:52px}.product h3{margin:8px 0}.product p{color:#999;min-height:40px;font-size:13px}.price{color:#ff2630;font-size:25px;font-weight:900;margin:15px 0}.buy{width:100%;background:#e50914;color:#fff;border:0;padding:11px;border-radius:8px;font-weight:900;cursor:pointer}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.steps article,.review-grid article{background:#0b0b0b;border:1px solid #292929;border-radius:14px;padding:25px}.steps i{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:#e50914;font-style:normal;font-weight:900}.steps p,.review-grid p{color:#aaa;line-height:1.5}.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.review-grid small{color:#777}.contact{max-width:1200px;margin:40px auto 80px;text-align:center;padding:60px 20px;border:1px solid #451010;border-radius:18px;background:radial-gradient(circle at center,rgba(150,0,0,.15),transparent 65%)}.contact h2{font-size:38px;margin:0}.contact p{color:#aaa;margin-bottom:25px}footer{border-top:1px solid #222;padding:30px 6%;display:flex;align-items:center;gap:25px;color:#777}footer p{margin:auto}.modal{position:fixed;inset:0;background:rgba(0,0,0,.82);display:grid;place-items:center;padding:20px;z-index:50}.hidden{display:none!important}.modal-card{position:relative;width:min(460px,100%);background:#0d0d0d;border:1px solid #4b1515;border-radius:16px;padding:30px;text-align:center;box-shadow:0 20px 80px rgba(0,0,0,.7)}.close{position:absolute;right:15px;top:10px;background:none;border:0;color:#fff;font-size:30px;cursor:pointer}.modal-icon{font-size:50px}.modal-card p{color:#aaa;line-height:1.5}.modal-card input{width:100%;padding:13px;background:#050505;border:1px solid #333;color:#fff;border-radius:8px;margin:10px 0 12px}.full{width:100%;margin-top:10px}@media(max-width:900px){.header nav,.header>.ticket-btn{display:none}.menu-btn{display:block}.header nav.open{display:flex;position:absolute;top:76px;left:0;right:0;background:#080808;padding:20px;flex-direction:column;border-bottom:1px solid #222}.hero{grid-template-columns:1fr;padding-top:55px}.hero-logo{height:300px}.products{grid-template-columns:repeat(2,1fr)}.stats{margin:0 5% 40px}.steps{grid-template-columns:1fr 1fr}.section{padding-left:5%;padding-right:5%}}@media(max-width:560px){.hero h1{font-size:43px}.hero-logo{height:250px}.gd{font-size:90px}.store{font-size:28px}.fornecimento{font-size:14px}.stats{grid-template-columns:1fr 1fr}.stats div:nth-child(2){border-right:0}.stats div:nth-child(-n+2){border-bottom:1px solid #252525}.products,.steps,.review-grid{grid-template-columns:1fr}.hero-actions{flex-direction:column}.badges{gap:14px}.contact{margin-left:5%;margin-right:5%}footer{flex-direction:column;text-align:center}}
+
+</style>
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#inicio">
+      <span class="brand-mark">GD</span>
+      <span><strong>GD STORE</strong><small>FORNECIMENTO</small></span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+
+    <nav id="nav">
+      <a href="#inicio">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#como-funciona">Como Funciona</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <button class="ticket-btn" onclick="abrirTicket()">🎫 Abrir Ticket</button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow">⚡ GD STORE FORNECIMENTO</span>
+        <h1>Produtos digitais<br>por <span>R$ 1,00</span></h1>
+        <p>Escolha seu produto, confira as condições e entre em contato para concluir sua compra.</p>
+
+        <div class="badges">
+          <div><b>🛡️ COMPRA SEGURA</b><small>Atendimento e suporte</small></div>
+          <div><b>⚡ ENTREGA RÁPIDA</b><small>Após confirmação</small></div>
+          <div><b>🎧 SUPORTE</b><small>Fale com nossa equipe</small></div>
+        </div>
+
+        <div class="hero-actions">
+          <a class="primary" href="#produtos">Ver Produtos 🛒</a>
+          <button class="secondary" onclick="abrirTicket()">Abrir Ticket 🎫</button>
+        </div>
+      </div>
+
+      <div class="hero-logo">
+        <div class="crown">♛</div>
+        <div class="gd">GD</div>
+        <div class="store">STORE</div>
+        <div class="fornecimento">FORNECIMENTO</div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><b>+1.000</b><span>Produtos entregues</span></div>
+      <div><b>+500</b><span>Clientes</span></div>
+      <div><b>5.0</b><span>Avaliação média</span></div>
+      <div><b>24/7</b><span>Suporte</span></div>
+    </section>
+
+    <section class="notice">
+      <strong>⚠️ ATENÇÃO SOBRE STREAMING</strong>
+      <p>Netflix, Paramount+ e Crunchyroll são <b>contas compartilhadas</b>. Leia as condições do produto antes de comprar.</p>
+    </section>
+
+    <section class="section" id="produtos">
+      <div class="section-title">
+        <span>NOSSO CATÁLOGO</span>
+        <h2>Produtos em <b>destaque</b></h2>
+      </div>
+
+      <div class="products" id="productGrid"></div>
+    </section>
+
+    <section class="section how" id="como-funciona">
+      <div class="section-title">
+        <span>PASSO A PASSO</span>
+        <h2>Como <b>funciona?</b></h2>
+      </div>
+      <div class="steps">
+        <article><i>1</i><h3>Escolha</h3><p>Selecione o produto que deseja.</p></article>
+        <article><i>2</i><h3>Confira</h3><p>Veja as condições e o valor.</p></article>
+        <article><i>3</i><h3>Entre em contato</h3><p>Abra um ticket para finalizar.</p></article>
+        <article><i>4</i><h3>Receba</h3><p>Após a confirmação, siga as instruções de entrega.</p></article>
+      </div>
+    </section>
+
+    <section class="section reviews" id="avaliacoes">
+      <div class="section-title">
+        <span>CLIENTES</span>
+        <h2>Avaliações da <b>GD</b></h2>
+      </div>
+      <div class="review-grid">
+        <article>⭐⭐⭐⭐⭐<p>“Atendimento rápido e objetivo.”</p><small>Cliente GD</small></article>
+        <article>⭐⭐⭐⭐⭐<p>“Gostei da organização do atendimento.”</p><small>Cliente GD</small></article>
+        <article>⭐⭐⭐⭐⭐<p>“Site simples e fácil de usar.”</p><small>Cliente GD</small></article>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <h2>Precisa de ajuda?</h2>
+      <p>Abra um ticket para falar com a equipe da GD STORE.</p>
+      <button class="primary" onclick="abrirTicket()">Abrir Ticket 🎫</button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand">
+      <span class="brand-mark">GD</span>
+      <span><strong>GD STORE</strong><small>FORNECIMENTO</small></span>
+    </div>
+    <p>© 2026 GD STORE FORNECIMENTO. Todos os direitos reservados.</p>
+    <button class="secondary" onclick="abrirTicket()">Suporte</button>
+  </footer>
+
+  <div class="modal hidden" id="productModal">
+    <div class="modal-card">
+      <button class="close" onclick="fecharModal()">×</button>
+      <span class="modal-icon" id="modalIcon"></span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <div class="price">R$ 1,00</div>
+      <p class="modal-note">Para finalizar, abra um ticket e informe o produto escolhido.</p>
+      <button class="primary full" onclick="abrirTicket()">Abrir Ticket para Comprar</button>
+    </div>
+  </div>
+
+  <div class="modal hidden" id="ticketModal">
+    <div class="modal-card">
+      <button class="close" onclick="fecharTicket()">×</button>
+      <span class="modal-icon">🎫</span>
+      <h2>Atendimento GD STORE</h2>
+      <p>Configure abaixo o link do seu Discord para que este botão leve seus clientes diretamente ao servidor.</p>
+      <input id="discordInput" placeholder="https://discord.gg/seu-servidor">
+      <button class="primary full" onclick="salvarDiscord()">Salvar link do Discord</button>
+      <a id="discordLink" class="secondary full hidden" target="_blank" rel="noopener">Entrar no Discord</a>
+    </div>
+  </div>
+
+  <script>
+const products = [
+  {name:"Netflix", icon:"🔴", desc:"Conta compartilhada • leia as condições"},
+  {name:"Paramount+", icon:"⭐", desc:"Conta compartilhada • leia as condições"},
+  {name:"Crunchyroll", icon:"🟠", desc:"Conta compartilhada • leia as condições"},
+  {name:"Xbox", icon:"🎮", desc:"Produtos e contas Xbox conforme disponibilidade"},
+  {name:"Membros", icon:"💎", desc:"Membros para servidor • planos disponíveis"}
+];
+
+const grid = document.getElementById("productGrid");
+
+products.forEach((p, i) => {
+  const card = document.createElement("article");
+  card.className = "product";
+  card.innerHTML = `
+    <div class="product-icon">${p.icon}</div>
+    <h3>${p.name}</h3>
+    <p>${p.desc}</p>
+    <div class="price">R$ 1,00</div>
+    <button class="buy" onclick="abrirProduto(${i})">Comprar 🛒</button>
+  `;
+  grid.appendChild(card);
+});
+
+function abrirProduto(index){
+  const p = products[index];
+  document.getElementById("modalIcon").textContent = p.icon;
+  document.getElementById("modalTitle").textContent = p.name;
+  document.getElementById("modalDescription").textContent = p.desc;
+  document.getElementById("productModal").classList.remove("hidden");
+}
+function fecharModal(){ document.getElementById("productModal").classList.add("hidden"); }
+
+function abrirTicket(){
+  document.getElementById("ticketModal").classList.remove("hidden");
+  const saved = localStorage.getItem("gd_discord");
+  if(saved) mostrarDiscord(saved);
+}
+function fecharTicket(){ document.getElementById("ticketModal").classList.add("hidden"); }
+
+function salvarDiscord(){
+  const input = document.getElementById("discordInput");
+  const value = input.value.trim();
+  if(!value.startsWith("https://discord.gg/")){
+    alert("Coloque um convite válido no formato https://discord.gg/seu-servidor");
+    return;
+  }
+  localStorage.setItem("gd_discord", value);
+  mostrarDiscord(value);
+}
+function mostrarDiscord(url){
+  const link = document.getElementById("discordLink");
+  link.href = url;
+  link.textContent = "Entrar no Discord 🎮";
+  link.classList.remove("hidden");
+}
+
+document.getElementById("menuBtn").addEventListener("click",()=>{
+  document.getElementById("nav").classList.toggle("open");
+});
+
+document.querySelectorAll("#nav a").forEach(a => a.addEventListener("click",()=>{
+  document.getElementById("nav").classList.remove("open");
+}));
+
+document.addEventListener("click",(e)=>{
+  if(e.target.id==="productModal") fecharModal();
+  if(e.target.id==="ticketModal") fecharTicket();
+});
+
+</script>
+</body>
+</html>
